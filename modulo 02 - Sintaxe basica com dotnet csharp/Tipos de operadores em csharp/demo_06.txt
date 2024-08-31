@@ -1,0 +1,11 @@
+
+// int a = 5;
+// double b = a; // Convert.ToDouble(a); redundante !
+
+// long a = long.MaxValue; trilhoes 
+// int b = Convert.ToInt32(a); bilhoes
+
+int a = int.MaxValue;
+long b = a;
+
+System.Console.WriteLine(b);
