@@ -1,0 +1,11 @@
+
+string a = "15-";
+
+// int b = 0;
+
+int.TryParse(a, out int b);
+
+System.Console.WriteLine(b);
+System.Console.WriteLine("Conversão realizada com sucesso!");
+
+
