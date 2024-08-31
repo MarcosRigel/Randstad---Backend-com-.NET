@@ -1,0 +1,6 @@
+
+int inteiro = 5;
+string a = inteiro.ToString(); // "5"
+
+System.Console.WriteLine(a);
+
