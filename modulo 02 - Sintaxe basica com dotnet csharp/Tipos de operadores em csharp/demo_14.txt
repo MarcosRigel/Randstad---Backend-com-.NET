@@ -1,0 +1,13 @@
+
+bool possuiPresencaMinima = true;
+double media = 5.5;
+
+if (possuiPresencaMinima && media >= 7)
+{
+  System.Console.WriteLine("Aprovado!");
+}
+else 
+{
+  System.Console.WriteLine("Reprovado!");
+}
+
