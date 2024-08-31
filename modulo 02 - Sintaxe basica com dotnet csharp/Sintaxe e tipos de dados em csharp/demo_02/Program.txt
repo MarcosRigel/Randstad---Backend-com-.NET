@@ -1,0 +1,5 @@
+using ExemploFundamentos.Models;
+
+// ExemploFundamentos.Models.Pessoa p = new ExemploFundamentos.Models.Pessoa();
+
+Pessoa p = new Pessoa();
