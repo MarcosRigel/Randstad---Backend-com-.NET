@@ -1,0 +1,5 @@
+
+double a = 4 / (2 + 2);
+
+System.Console.WriteLine(a);
+
