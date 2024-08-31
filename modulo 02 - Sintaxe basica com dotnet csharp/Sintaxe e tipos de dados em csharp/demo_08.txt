@@ -1,0 +1,15 @@
+using ExemploFundamentos.Models;
+
+// tipo variavel recebe(=) um valor compatível com a variavel
+string apresentacao = "Ola, seja bem vindo";
+int quantidade = 1;
+double altura = 1.80;
+decimal preco = 1.80M;
+
+bool condicao = true;
+
+System.Console.WriteLine(apresentacao);
+System.Console.WriteLine("Valor da variável quantidade: " + quantidade);
+System.Console.WriteLine("Valor da variável altura: " + altura.ToString("0.00"));
+System.Console.WriteLine("Valor da variável preco: " + preco);
+System.Console.WriteLine("Valor da variável condicao: " + condicao);
