@@ -1,0 +1,13 @@
+
+bool ehMaiorDeIdade = false;
+bool possuiAutoridadeDoResponsavel = false;
+
+if (ehMaiorDeIdade || possuiAutoridadeDoResponsavel) 
+{
+  System.Console.WriteLine("Entrada liberada!");
+}
+else 
+{
+  System.Console.WriteLine("Entrada não liberada");
+}
+
