@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ExemploFundamentos.Models
+{
+    public class Pessoa // PascalCase mais de uma plavra (PessoaFisica)
+    {
+        public string Nome { get; set; } // PascalCase
+        public int Idade { get; set; } // PascalCase
+
+        public void Apresentar() // PascalCase
+        {
+            Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");
+            // Console.WriteLine($"Olá, meu nome é {Nome} \n e tenho {Idade} anos");
+        }
+
+    }
+}
