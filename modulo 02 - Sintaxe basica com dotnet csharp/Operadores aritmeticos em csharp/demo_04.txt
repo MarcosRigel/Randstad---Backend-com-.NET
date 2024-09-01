@@ -1,0 +1,15 @@
+int numeroIncremento = 10;
+
+System.Console.WriteLine(numeroIncremento);
+
+System.Console.WriteLine("Incrementando o 10");
+//numero = numero + 1;
+numeroIncremento++;
+
+int numeroDecremento = 20;
+System.Console.WriteLine("Decrementando o 20");
+//numero = numero + 1;
+numeroDecremento--;
+
+System.Console.WriteLine(numeroDecremento);
+
