@@ -1,0 +1,23 @@
+
+int[] arrayInteiros = new int[4]; // declaracao de um array
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[3] = 1;
+
+System.Console.WriteLine("Percorrendo o Array com o FOR");
+for (int i=0; i < arrayInteiros.Length; i++) 
+{
+  Console.WriteLine($"Posição N* {i} - {arrayInteiros[i]}");
+}
+
+System.Console.WriteLine("Percorrendo o Array com o FOREACH");
+
+int contadorForeach = 0;
+foreach(int valor in arrayInteiros) 
+{
+  System.Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
+  contadorForeach++;
+}
+
