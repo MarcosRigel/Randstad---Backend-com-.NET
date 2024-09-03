@@ -1,0 +1,22 @@
+using ExemploFundamentos.Models;
+
+// Instancia da classe pessoa
+Pessoa p = new Pessoa();
+
+/*  Atribui o nome e idade para pessoa
+    passando o nome Buta
+    e passando a idade 20
+*/
+p.Nome = "Buta";
+p.Idade = 20;
+
+// Faz a pessoa se apresentar
+p.Apresentar();
+
+p.CadastrarNoERPXYZDaEmpresa();
+
+
+Calculadora c = new Calculadora();
+c.Somar(3, 5);
+c.Subtrair(3, 5);
+
