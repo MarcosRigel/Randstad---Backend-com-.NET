@@ -1,0 +1,21 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+//string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+
+//System.Console.WriteLine("Chegou até aqui");
+
+try
+{
+  string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+  foreach (string linha in linhas)
+  {
+    Console.WriteLine(linha);
+  }
+} 
+catch(Exception ex) 
+{
+  System.Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+}
+
+System.Console.WriteLine("Chegou até aqui");
