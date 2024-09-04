@@ -1,0 +1,6 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+DateTime data = DateTime.Now;
+
+System.Console.WriteLine(data.ToString("yyyy-MM-dd HH:mm"));
