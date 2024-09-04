@@ -1,0 +1,5 @@
+using ExemploExplorando.Models;
+
+decimal valorMonetario = 1582.40M;
+
+System.Console.WriteLine($"{valorMonetario:C}");
