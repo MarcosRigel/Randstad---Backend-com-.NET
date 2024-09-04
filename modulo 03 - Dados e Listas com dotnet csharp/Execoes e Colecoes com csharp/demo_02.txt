@@ -1,0 +1,9 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+
+foreach(string linha in linhas)
+{
+  Console.WriteLine(linha);
+}
