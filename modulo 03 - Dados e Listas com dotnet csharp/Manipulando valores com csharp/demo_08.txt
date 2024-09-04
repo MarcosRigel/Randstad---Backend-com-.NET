@@ -1,0 +1,8 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
+
+decimal valorMonetario = 1582.40M;
+
+System.Console.WriteLine(valorMonetario.ToString("N2"));
