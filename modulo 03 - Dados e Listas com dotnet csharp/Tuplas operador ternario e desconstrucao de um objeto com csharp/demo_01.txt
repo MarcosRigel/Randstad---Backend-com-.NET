@@ -1,0 +1,9 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+(int, string, string, decimal) tupla = (1, "Leonardo", "Buta", 1.80M);
+
+System.Console.WriteLine($"Id: {tupla.Item1}");
+System.Console.WriteLine($"Nome: {tupla.Item2}");
+System.Console.WriteLine($"Sobrenome: {tupla.Item3}");
+System.Console.WriteLine($"Altura: {tupla.Item4}");
