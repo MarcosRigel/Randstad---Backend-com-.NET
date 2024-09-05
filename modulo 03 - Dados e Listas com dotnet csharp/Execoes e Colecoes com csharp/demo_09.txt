@@ -1,0 +1,37 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+System.Console.WriteLine(estados["MG"]);
+
+// foreach(var item in estados)
+// {
+//   System.Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// System.Console.WriteLine("-------------------------------------");
+
+// estados.Remove("BA");
+// estados["SP"] = "Sãp Paulo - valor alterado";
+
+// foreach(var item in estados)
+// {
+//   System.Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// string chave = "BA";
+// System.Console.WriteLine("Verificando o elemento:");
+
+// if (estados.ContainsKey(chave))
+// {
+//   System.Console.WriteLine($"Valor exisstente: {chave}");
+// }
+// else
+// {
+//   System.Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+// }
