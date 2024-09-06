@@ -1,0 +1,19 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+LeituraArquivo arquivo = new LeituraArquivo();
+
+var (sucesso, linhasArquivo, quantidadedeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (sucesso) 
+{
+  System.Console.WriteLine("Quantidade linhas do arquivo: " + quantidadedeLinhas);
+  foreach(string linha in linhasArquivo)
+  {
+    System.Console.WriteLine(linha);
+  }
+}
+else 
+{
+  System.Console.WriteLine("Não foi possível ler o arquivo");
+}
