@@ -1,0 +1,8 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+Pessoa p1 = new Pessoa("Leonardo", "Buta");
+
+(string nome, string sobrenome) = p1;
+
+System.Console.WriteLine($"{nome} {sobrenome}");
