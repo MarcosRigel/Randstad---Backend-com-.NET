@@ -1,0 +1,9 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+
+int numero = 10;
+bool ehPar = false;
+
+// if ternário
+ehPar = numero % 2 == 0;
+System.Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "ímpar"));
