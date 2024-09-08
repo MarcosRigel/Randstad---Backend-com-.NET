@@ -1,0 +1,13 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+using Newtonsoft.Json;
+
+int numero = 15;
+bool par = false;
+
+// If ternario
+par = numero.EhPar();
+
+string mensagem = "O número " + numero + " " + "é " + (par ? "par" : "ímpar");
+System.Console.WriteLine(mensagem);
+
