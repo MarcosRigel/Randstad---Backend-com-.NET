@@ -1,0 +1,9 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+using Newtonsoft.Json;
+
+var tipoAnonimo = new { Nome = "Leonardo", Sobrenome = "Buta", Altura = 1.80 };
+
+System.Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+System.Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+System.Console.WriteLine("Altura: " + tipoAnonimo.Altura);
