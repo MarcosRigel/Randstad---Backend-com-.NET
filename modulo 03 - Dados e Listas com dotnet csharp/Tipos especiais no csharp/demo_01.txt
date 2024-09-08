@@ -1,0 +1,14 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+using Newtonsoft.Json;
+
+bool? desejaReceberEmail = null;
+
+if (desejaReceberEmail != null && desejaReceberEmail.Value)
+{
+  System.Console.WriteLine("O usuário optou por receber e-mail");
+}
+else 
+{
+  System.Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail");
+}
