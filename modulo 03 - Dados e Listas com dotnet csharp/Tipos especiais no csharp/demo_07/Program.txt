@@ -1,0 +1,17 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+using Newtonsoft.Json;
+
+MeuArray<int> arrayInteiro = new MeuArray<int>(); // <o tipo voce escolhe>!
+
+arrayInteiro.AdicionarElementoArray(30);
+
+System.Console.WriteLine(arrayInteiro[0]);
+
+MeuArray<string> arrayString = new MeuArray<string>(); // <o tipo voce escolhe>!
+
+arrayInteiro.AdicionarElementoArray(30);
+
+System.Console.WriteLine(arrayInteiro[0]);
+
+List<int> lista = new List<int>();
