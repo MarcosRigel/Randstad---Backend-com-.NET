@@ -1,0 +1,15 @@
+using ExemploExplorando.Models;
+using System.Globalization;
+using Newtonsoft.Json;
+
+dynamic variavelDinamica = 4;
+
+System.Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+variavelDinamica = "Texto";
+System.Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+variavelDinamica = true;
+System.Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+// variavelDinamica.
