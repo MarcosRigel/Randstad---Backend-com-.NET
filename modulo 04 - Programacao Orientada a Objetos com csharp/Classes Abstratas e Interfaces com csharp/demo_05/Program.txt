@@ -1,0 +1,4 @@
+using ExemploPOO.Models;
+
+Computador c = new Computador();
+System.Console.WriteLine(c.ToString());
