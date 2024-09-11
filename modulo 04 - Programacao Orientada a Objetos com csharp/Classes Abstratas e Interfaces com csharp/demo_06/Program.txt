@@ -1,0 +1,5 @@
+using ExemploPOO.Models;
+using ExemploPOO.Interfaces;
+
+ICalculadora calc = new Calculadora();
+System.Console.WriteLine(calc.Multiplicar(3, 9));
