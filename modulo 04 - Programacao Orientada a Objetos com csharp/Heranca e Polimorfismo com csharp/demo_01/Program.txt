@@ -1,0 +1,9 @@
+using ExemploPOO.Models;
+
+Aluno a1 = new Aluno();
+
+a1.Nome = "Leonardo";
+a1.Idade = 20;
+a1.Email = "teste@tste.com";
+a1.Nota = 10;
+a1.Apresentar();
