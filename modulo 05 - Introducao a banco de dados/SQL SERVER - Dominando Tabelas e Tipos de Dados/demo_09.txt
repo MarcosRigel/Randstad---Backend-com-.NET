@@ -1,0 +1,11 @@
+
+select * from Clientes where Id = 1005
+
+begin tran
+rollback
+
+update Clientes
+set Email = 'BeccaRobinson@gmail.com',
+	AceitaComunicados = 0,
+	Sobrenome = 'BUTA'
+where Id = 1005
