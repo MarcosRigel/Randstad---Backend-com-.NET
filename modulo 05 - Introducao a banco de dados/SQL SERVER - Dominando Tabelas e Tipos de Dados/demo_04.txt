@@ -1,0 +1,3 @@
+SELECT * FROM Clientes
+WHERE AceitaComunicados = 1
+ORDER BY Nome, Sobrenome
