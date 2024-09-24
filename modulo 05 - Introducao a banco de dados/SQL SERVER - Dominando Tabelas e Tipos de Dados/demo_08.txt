@@ -1,0 +1,7 @@
+-- select * from Clientes where Nome = 'Rebecca' AND Sobrenome = 'Robinson'
+select * from Clientes where Id = 996
+
+update Clientes
+set Email = 'BeccaRobinson@gmail.com',
+	AceitaComunicados = 0
+where id = 996
