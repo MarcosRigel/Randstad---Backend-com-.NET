@@ -1,0 +1,11 @@
+--SELECT * FROM Clientes
+--WHERE Nome LIKE '%G%'
+--ORDER BY Nome, Sobrenome
+
+
+INSERT INTO Clientes (Sobrenome, Nome, Email, AceitaComunicados, DataCadastro)
+VALUES ('Buta','Leonardo', 'email@email.com', 1, GETDATE())
+
+INSERT INTO Clientes VALUES ('Leonardo', 'Buta', 'email@email.com', 1, GETDATE())
+
+SELECT * FROM Clientes WHERE Nome = 'Leonardo'
