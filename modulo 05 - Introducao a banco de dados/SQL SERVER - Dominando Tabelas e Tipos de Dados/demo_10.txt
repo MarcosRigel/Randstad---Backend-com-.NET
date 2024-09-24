@@ -1,0 +1,10 @@
+
+select * from Clientes where Nome = 'Leonardo'
+select * from Clientes where Id = 1006
+
+begin tran
+rollback
+
+delete Clientes
+where Id = 1006
+
