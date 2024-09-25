@@ -1,6 +1,0 @@
-select
-	Nome + ', Cor: ' + Cor + ' - ' + Genero NomeProdutoCompleto,
-	UPPER(Nome) Nome,
-	LOWER(Cor) Cor,
-	FORMAT(DataCadastro, 'dd-MM-yyyy HH:mm') Data
-from Produtos
