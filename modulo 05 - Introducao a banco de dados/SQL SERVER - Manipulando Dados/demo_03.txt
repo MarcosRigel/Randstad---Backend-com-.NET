@@ -1,0 +1,9 @@
+select * from Produtos
+
+select COUNT(*) QuantidadeProdutos from Produtos
+
+select COUNT(*) QuantidadeProdutos from Produtos where Tamanho = 'M'
+
+select SUM(Preco) PrecoTotal from Produtos
+
+select SUM(Preco) PrecoTotalProdutosTamanhoM from Produtos where Tamanho = 'M'
