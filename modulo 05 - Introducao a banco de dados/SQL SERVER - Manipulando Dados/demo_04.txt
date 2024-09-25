@@ -1,0 +1,9 @@
+select MAX(Preco) from Produtos
+
+select MAX(Preco) ProdutoMaisCaroTamanhoM from Produtos where Tamanho = 'M'
+
+select MIN(Preco) from Produtos
+
+select MIN(Preco) ProdutoMaisBaratoTamanhoM from Produtos where Tamanho = 'M'
+
+select AVG(Preco) from Produtos
