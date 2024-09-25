@@ -1,0 +1,3 @@
+select 
+	Nome + ', Cor: ' + Cor + ' - ' + Genero NomeProduto
+from Produtos
