@@ -1,0 +1,11 @@
+select * from Produtos
+
+-- Adicionar uma coluna
+alter table Produtos
+add DataCadastro DATETIME2
+
+-- Remover uma coluna
+alter table Produtos
+drop column DataCadastro
+
+UPDATE Produtos SET DataCadastro = GETDATE()
