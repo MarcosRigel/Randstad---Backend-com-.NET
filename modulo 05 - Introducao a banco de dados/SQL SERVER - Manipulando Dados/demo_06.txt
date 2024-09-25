@@ -1,0 +1,5 @@
+select 
+	Nome + ', Cor: ' + Cor + ' - ' + Genero NomeProdutoCompleto,
+	UPPER(Nome) Nome,
+	LOWER(Cor) Cor
+from Produtos
